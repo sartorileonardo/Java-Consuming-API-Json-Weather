@@ -1,0 +1,21 @@
+Este é um simples projeto de consumo de uma API com dados climáticos chamada Open Weather Map.
+
+Open Weather Map é uma API aberta para desenvolvedores com objetivo de facilitar a incorporação de informações meteorológicas em uma variedade de aplicativos, incluindo aplicações web e móveis, soluções para seguros, publicidade, agricultura, esporte e muitos outros. 
+
+Nesse projeto a API foi utilizada passando como parâmetro sigla do país e cidade o sistema retorna uma String JSON com os dados:
+
+- Latitude e Longitude;
+- Previsão do clima;
+- Umidade do ar;
+- Pressão do ar;
+- Velocidade do vento;
+- Temperatura mínima;
+- Temperatura máxima;
+- Visibilidade;
+- Entre outros dados;
+
+Para desenvolvimento do projeto foi utilizado Java 1.7.
+
+As dependências (LIBs) do projeto estão no arquivo "pom.xml" e são gerenciados pelo Maven.
+
+Para testar execute a classe "TestJsonApi.java" e forneça dados de País e Cidade as caixas de dilálogo de entrada de dados do tipo JOptionPane.
